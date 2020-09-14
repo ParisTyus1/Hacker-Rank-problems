@@ -15,7 +15,7 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 import java.time.LocalDate;
 
-public class LocalDate {
+public class Date {
     /*
      * Complete the 'findDay' function below.
      *
