@@ -44,7 +44,7 @@ public class FactoryPattern {
 
                 Scanner sc=new Scanner(System.in);
                 //creating the factory
-                FoodFactory foodFactory = new FoodFactory();
+                FoodFactory foodFactory = new foodFactory();
 
                 //factory instantiates an object
                 Food food = foodFactory.getFood(sc.nextLine());
